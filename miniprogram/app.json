@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/order/order",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "点餐小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#CC3366",
+    "list": [
+    {
+      "pagePath": "pages/index1/index1",
+      "text": "首页",
+      "iconPath": "/images/index.png",
+      "selectedIconPath": "/images/indexselected.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "/images/order.png",
+      "selectedIconPath": "/images/orderselected.png"
+    }
+    
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

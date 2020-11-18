@@ -1,0 +1,10 @@
+<!-- index.wxml -->
+
+
+<view><button class="user_img" 
+      type="primary"
+      open-type="getUserInfo"
+      lang="zh_CN"
+      bindgetuserinfo="onGetUserInfo"
+    >用户</button>
+</view>

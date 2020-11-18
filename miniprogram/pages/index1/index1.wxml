@@ -1,0 +1,20 @@
+<!--pages/index1/index1.wxml-->
+<view class = "container-1">
+    <!-- 轮播图 -->
+    <swiper autoplay="{{autoplay}}" >
+          <swiper-item>
+            <image class="picture" src="1.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image class="picture" src="2.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image class="picture" src="3.jpg"></image>
+          </swiper-item>
+      </swiper>
+</view>
+
+<!-- <view class = "search">
+  <input type = 'text' placeholder='请输入菜品名/商铺名' bindinput='input' bindconfirm = 'confirm'/>
+</view> -->
+
